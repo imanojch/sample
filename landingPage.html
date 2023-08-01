@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gym-Landing Page</title>
+    <style type="text/css">
+      #header {
+        background-color: #5184a2;
+        padding: 10px;
+        margin: -8px;
+      }
+      header table th:nth-child(even) {
+        text-shadow: 3px 1px 4px black;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        text-transform: uppercase;
+        word-spacing: 15px;
+      }
+
+      header img {
+        padding-left: 40px;
+      }
+
+      #navbar {
+        background-color: #341105;
+        padding: 20px;
+        margin: -8px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav li {
+        margin-right: 1em;
+      }
+
+      nav a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 20px;
+        font-size: large;
+      }
+
+      nav a:hover {
+        color: rgb(151, 252, 255);
+      }
+
+      #sidebar {
+        width: 250px;
+        height: 100%;
+        background-color: #5184a2;
+        position: fixed;
+        padding-top: 30px;
+        margin-top: 8px;
+        margin-left: -8px;
+      }
+
+      #sidebar a {
+        display: block;
+        padding: 10px;
+        margin-top: 10px;
+        color: #000;
+        padding-left: 40px;
+        font-weight: bold;
+      }
+
+      #sidebar a.active {
+        background-color: #ffed00;
+        color: #373434;
+        font-weight: bold;
+      }
+
+      #sidebar a:hover {
+        color: rgb(46, 7, 91);
+      }
+
+      .order-button {
+        background-color: #5184a2;
+        border-radius: 10px;
+        border-color: #341105;
+        border-width: 1px;
+        color: white;
+        text-shadow: black 2px 1px 2px;
+        padding: 10px 20px;
+        margin-left: 660px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      .order-text {
+        font-size: 20px;
+        margin-left: 655px;
+        color: red;
+      }
+      body {
+        background-image: url(https://www.pngkit.com/png/full/33-330595_athletics-gym-gimnasio-guadalajaracrossfit-spinning-bodybuilding.png),
+          url(https://www.downloadclipart.net/medium/fitness-png-image.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: 410px 470px, 900px 490px;
+        background-size: 180px, 250px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="header">
+      <table>
+        <th>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Gold%27s_Gym_logo.svg/1200px-Gold%27s_Gym_logo.svg.png"
+            alt="LOGO"
+            width="70px"
+          />
+        </th>
+        <th>
+          <h1 style="padding-left: 200px; color: #ffed00">
+            Golds Gym Worldwide Private Company
+          </h1>
+        </th>
+      </table>
+    </header>
+    <nav id="navbar">
+      <ul>
+        <li><a href="landingPage.html">Home</a></li>
+        <li><a href="PlaceAppointment.html">Place Appointment</a></li>
+        <li><a href="ViewAppointment.html">View Appointment</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <div id="sidebar">
+      <a href="landingPage.html" class="active">Home</a>
+
+      <a href="PlaceAppointment.html">Place Appointment</a>
+
+      <a href="ViewAppointment.html">View Appointment</a>
+
+      <a href="ContactUs.html">Contact Us</a>
+    </div>
+    <p style="padding-left: 270px; padding-top: 10px">
+      Welcome to Golds Gym Private Company! We are a full-service fitness center
+      dedicated to helping our members reach their health and fitness goals. Our
+      mission is to provide a safe and comfortable environment for our members
+      to exercise, learn, and grow.
+    </p>
+    <h1 align="center" style="padding-left: 162px">"Get Fit, Feel Great!"</h1>
+    <p style="padding-left: 270px">
+      At Golds Gym Private Company, we understand that everyone has different
+      fitness needs. That’s why we offer a wide variety of services and
+      amenities designed to meet the needs of all our members. From group
+      classes and personal training sessions, to state-of-the-art equipment and
+      nutrition counseling, we have everything you need to get in shape. We also
+      understand that staying motivated can be difficult at times. That’s why we
+      offer a variety of programs designed to keep you motivated and on track
+      with your fitness goals. From group challenges and competitions, to
+      individualized coaching plans, we have something for everyone.
+    </p>
+    <p style="padding-left: 270px; padding-top: 10px">
+      We invite you to come experience the Golds Gym Private Company difference
+      today! With our wide range of services, amenities, programs, and staff
+      support – you’ll be sure to find everything you need for success on your
+      journey towards better health!
+    </p>
+    <br /><br />
+    <div class="order-text">Apply for trainer now!</div>
+    <br />
+    <form action="PlaceAppointment.html">
+      <button class="order-button">Apply for Trainer</button>
+    </form>
+  </body>
+</html>
